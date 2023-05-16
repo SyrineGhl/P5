@@ -2,10 +2,10 @@ body {
 	max-width: 1920px;
 	margin: auto;
 }
-* {
-	font-family: 'Inter';
-	font-style: normal;
-}
+p, h1, h2, h3, h4 {
+    font-family: 'Inter', sans-serif;
+} 
+
 header {
 	background-color: white;
 	position: sticky;
@@ -71,7 +71,7 @@ nav a {
 	width: 100%;
 
 }
-#about-me {
+article {
 	flex: 2
 }
 .about-me__title {
@@ -79,13 +79,13 @@ nav a {
 	margin-bottom: 60px;
 	font-size: 30px;
 }
-.about-me__introduction {
+article .about-me__introduction {
 	font-family: 'Spectral';
-	font-weight: 800;
-	font-style: italic;
 	width: 60%;
+	font-size: 1rem;
 }
-#about-me p {
+
+article p {
 	width: 80%;
 	font-size: 14px;
 }
@@ -97,7 +97,7 @@ nav a {
 	text-align: center;
 	padding-block: 2em;
 }
-.gallery nav {
+.gallery .nav {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -255,7 +255,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	article .about-me__introduction , article p {
 		width: 100%;
 	}
 }
