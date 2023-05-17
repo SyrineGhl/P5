@@ -110,7 +110,6 @@ article p {
 }
 .item-column {
 	position: relative;
-	margin-bottom: 0 !important;
 	padding: 0;
 }
 .item-column::after{
@@ -126,6 +125,20 @@ article p {
 	object-fit: cover;
 	padding: .5em;
 }
+.mg-prev{
+	cursor:pointer;
+	position:absolute;
+	top:50%;
+	left:-15px;
+	background:white;
+}
+.mg-next{
+	cursor:pointer;
+	position:absolute;
+	top:50%;
+	right:-15px;
+	background:white;
+}
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
@@ -136,8 +149,8 @@ article p {
 	font-size: 24px;
 }
 
-.quote {
-	font-family: 'Spectral';
+
+blockquote{
 	font-style: italic;
 	width: 70%;
 	margin: auto;
@@ -147,12 +160,14 @@ article p {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: 1.5rem;
+	line-height: 1.2;
 }
 .quote__author {
 	font-family: Spectral;
 	font-weight: 800;
-	font-size: 22px;
+	font-size: 1rem;
+	font-style: normal;
 }
 
 #services {
