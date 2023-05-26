@@ -3,7 +3,7 @@ body {
 	margin: auto;
 }
 p, h1, h2, h3, h4 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', 'arial', sans-serif;
 } 
 
 header {
@@ -89,7 +89,7 @@ article {
 	font-size: 30px;
 }
 article .about-me__introduction {
-	font-family: 'Spectral';
+	font-family: 'Spectral', 'arial', sans-serif;
 	width: 60%;
 	font-size: 1rem;
 }
@@ -165,7 +165,7 @@ blockquote{
 	padding-block: 3em;
 }
 .quote__text {
-	font-family: Spectral;
+	font-family: 'Spectral', 'arial', sans-serif;
 	font-style: italic;
 	font-weight: 300;
 	font-size: 1.5rem;
@@ -173,7 +173,7 @@ blockquote{
 	text-align: center;
 }
 .quote__author {
-	font-family: Spectral;
+	font-family: 'Spectral', 'arial', sans-serif;
 	font-weight: 800;
 	font-size: 1rem;
 	font-style: normal;
